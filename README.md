@@ -19,4 +19,5 @@ This project demonstrates creating a basic HTTP server in Python without using a
 
 2. Access the root URL: http://localhost:8000/ 
 3. Get JSON at /data
-3. Post Data at: /user_data { "username": "name" }
+4. Get Single User Data: /data?user_id=1
+5. Post Data at: /user_data - { "username": "name" }
